@@ -15,8 +15,8 @@ public class FileService {
         try {
             String fileName = String.valueOf(UUID.randomUUID());
             fileName = fileName.replaceAll("-","");
-            files.put(fileName,file);
-            files.keySet().forEach(System.out::println);
+            //files.put(fileName,file);
+            //files.keySet().forEach(System.out::println);
             return fileName;
         }catch (Exception e){
             return e.getMessage();
